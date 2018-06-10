@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "21a6b9ea-89a3-4642-afd8-b99ebc936cf0",
+		"name": "Rotten Potatoes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Top Movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:4567/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"movies"
+					]
+				},
+				"description": "List of popular movies"
+			},
+			"response": []
+		},
+		{
+			"name": "Movie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:4567/movies/star_wars_the_last_jedi",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"movies",
+						"star_wars_the_last_jedi"
+					]
+				},
+				"description": "Gets the current \"actual\" audience rating for a movie"
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:4567/movies?q=star wars",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"movies"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "star wars"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
