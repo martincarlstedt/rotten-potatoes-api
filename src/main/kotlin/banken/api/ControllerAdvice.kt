@@ -7,6 +7,7 @@ import spark.Spark.*
 class ControllerAdvice {
 
     init {
+        port(ProcessBuilder().environment()["PORT"]?.toInt() ?: 4567)
 
         before("/*") { request, response ->
             response.type("application/json")
