@@ -1,4 +1,4 @@
-package banken.integration.model
+package banken.integrations.rottentomatoes.model
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue

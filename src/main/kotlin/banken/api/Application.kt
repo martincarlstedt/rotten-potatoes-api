@@ -1,7 +1,7 @@
 package banken.api
 
 import banken.core.RottenPotatoesService
-import banken.integration.RottenTomatoesClient
+import banken.integrations.rottentomatoes.RottenTomatoesClient
 
 fun main(args: Array<String>) {
 

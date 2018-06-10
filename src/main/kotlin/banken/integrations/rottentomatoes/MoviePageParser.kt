@@ -1,4 +1,4 @@
-package banken.integration
+package banken.integrations.rottentomatoes
 
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element

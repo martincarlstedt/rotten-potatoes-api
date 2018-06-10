@@ -1,5 +1,6 @@
-package banken.integration
+package banken.integrations.rottentomatoes
 
+import banken.integrations.rottentomatoes.RottenTomatoesClient
 import org.junit.Assert.assertNotEquals
 import org.junit.Ignore
 import org.junit.Test

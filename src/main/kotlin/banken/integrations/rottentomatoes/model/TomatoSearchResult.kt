@@ -1,4 +1,4 @@
-package banken.integration.model
+package banken.integrations.rottentomatoes.model
 
 import banken.core.MovieMetadata
 import banken.core.Posters

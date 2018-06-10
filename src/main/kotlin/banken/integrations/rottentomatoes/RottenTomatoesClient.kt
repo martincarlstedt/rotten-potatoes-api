@@ -1,10 +1,10 @@
-package banken.integration
+package banken.integrations.rottentomatoes
 
 import banken.core.MovieClient
 import banken.core.MovieMetadata
-import banken.integration.model.TomatoMovieMetadata
-import banken.integration.model.TomatoPopularMovie
-import banken.integration.model.TomatoSearchResult
+import banken.integrations.rottentomatoes.model.TomatoMovieMetadata
+import banken.integrations.rottentomatoes.model.TomatoPopularMovie
+import banken.integrations.rottentomatoes.model.TomatoSearchResult
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import org.jsoup.Jsoup
